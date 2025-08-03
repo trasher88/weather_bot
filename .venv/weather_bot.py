@@ -25,9 +25,6 @@ logger = logging.getLogger(__name__)
 # Константы состояний
 AWAITING_CITY = 1
 
-#TELEGRAM_TOKEN = "8265742864:AAEIXgn-1flIaYJwYjDFdL7_f6YtosIMGog"
-#WEATHER_API_KEY = "a7d71869b1ad43ff9cd142803250308"
-
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 WEATHER_API_KEY = os.getenv('WEATHER_API_KEY')
 
